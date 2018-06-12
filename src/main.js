@@ -10,6 +10,7 @@ import 'swiper/dist/css/swiper.css'
 import 'styles/reset'
 import 'styles/border'
 import 'styles/iconfont'
+import 'babel-polyfill'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)

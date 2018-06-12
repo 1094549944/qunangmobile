@@ -59,5 +59,8 @@ npm install better-scroll --save
 
 ## 使用vuex来管理状态级
 
+## 解决部分机型打开白屏的问题，一个原因是，无法识别promise,另一个原因是webpack-dev-server 的问题。解决：打包，然后到测试或者正式服务器上
+npm install babel-polyfill --save
+
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
